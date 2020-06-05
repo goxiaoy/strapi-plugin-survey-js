@@ -1,0 +1,5 @@
+{
+    "plugin.name":"SurveyJs",
+    "settings.form.license.label":"https://surveyjs.io/Licenses ",
+    "settings.form.license.description":"You have right to set this property to true if you have bought the commercial licence only. It will remove the text about non-commerical usage on the top of the widget. Setting this property true without having a commercial licence is illegal."
+}

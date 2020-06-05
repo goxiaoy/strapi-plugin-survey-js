@@ -1,0 +1,38 @@
+{
+  "name": "strapi-plugin-survey-js",
+  "version": "0.0.1",
+  "description": "This is the description of the plugin.",
+  "strapi": {
+    "name": "survey-js",
+    "icon": "plug",
+    "description": "Description of SurveyJS plugin."
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "survey-react": "latest",
+    "survey-creator": "latest",
+    "surveyjs-widgets": "latest",
+    "survey-pdf": "latest"
+  },
+  "author": {
+    "name": "goxiaoy",
+    "email": "xy1996mail@gmail.com",
+    "url": "https://github.com/Goxiaoy"
+  },
+  "maintainers": [
+    {
+      "name": "goxiaoy",
+    "email": "xy1996mail@gmail.com",
+    "url": "https://github.com/Goxiaoy"
+    }
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
