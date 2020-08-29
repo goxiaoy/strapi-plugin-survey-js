@@ -1,4 +1,6 @@
 {
     "settings":"SurveyJs设置",
-    "license":"SurveyJs许可证"
+    "license":"SurveyJs许可证",
+    "plugin.description":"SurveyJs 插件",
+    "plugin.description.short":"SurveyJs 插件"
 }

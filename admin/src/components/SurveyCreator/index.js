@@ -59,13 +59,13 @@ class SurveyCreator extends Component {
     this.onChange = this.props.onChange;
   }
 
-  async getSetting(){
+  async getSetting() {
     try {
       const { signal } = this.abortController;
       const { data } = await request(getRequestUrl('settings', { method: 'GET', signal }));
 
       this.setState({
-        license:data.license
+        license: data.license
       });
       this.updateLicense(data.license);
     } catch (err) {
@@ -73,8 +73,8 @@ class SurveyCreator extends Component {
     }
   }
 
-  updateLicense(license){
-    this.surveyCreator.haveCommercialLicense =license;
+  updateLicense(license) {
+    this.surveyCreator.haveCommercialLicense = license;
   }
 
   componentDidMount() {
@@ -83,8 +83,8 @@ class SurveyCreator extends Component {
       null,
       options
     );
-    this.surveyCreator.isAutoSave=true;
-    this.surveyCreator.autoSaveDelay=200;
+    this.surveyCreator.isAutoSave = true;
+    this.surveyCreator.autoSaveDelay = 200;
     this.surveyCreator.saveSurveyFunc = this.saveMySurvey;
     // this.surveyCreator.tabs().push({
     //   name: "survey-templates",
@@ -97,7 +97,7 @@ class SurveyCreator extends Component {
     // });
     this.surveyCreator.render("surveyCreatorContainer");
     // console.log(this.initialData);
-    this.surveyCreator.text = JSON.parse(this.initialData);
+    this.surveyCreator.text = this.initialData != null ? JSON.parse(this.initialData) : "";
     this.getSetting();
   }
   render() {
