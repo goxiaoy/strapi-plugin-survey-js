@@ -3,7 +3,7 @@ module.exports = async () => {
     // set plugin store
     const configurator = strapi.store({
         type: 'plugin',
-        name: 'survery-js',
+        name: 'surveyjs',
         key: 'settings',
     });
 
