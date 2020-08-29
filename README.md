@@ -10,7 +10,7 @@ How to install:
 --------
 1. In a root folder of your strapi project run 
    ```
-   #upgrate package file-loader
+   #upgrade package file-loader
    npm install file-loader --save
    npm install strapi-plugin-surveyjs --save
    ```
