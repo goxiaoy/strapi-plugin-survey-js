@@ -37,7 +37,7 @@ export default strapi => {
             id: getTrad('plugin.name'),
             defaultMessage: 'SurveyJs',
           },
-          name: 'survey-js',
+          name: 'surveyjs',
           to: `${strapi.settingsBaseURL}/surveyjs`,
           Component: Settings,
           // Bool : https://reacttraining.com/react-router/web/api/Route/exact-bool

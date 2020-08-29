@@ -12,7 +12,7 @@ module.exports = {
         return strapi
             .store({
                 type: 'plugin',
-                name: 'survery-js',
+                name: 'surveyjs',
                 key: 'settings',
             })
             .get();
@@ -22,7 +22,7 @@ module.exports = {
         return strapi
             .store({
                 type: 'plugin',
-                name: 'survery-js',
+                name: 'surveyjs',
                 key: 'settings',
             })
             .set({ value });

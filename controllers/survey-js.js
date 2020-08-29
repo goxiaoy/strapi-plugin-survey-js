@@ -9,14 +9,14 @@
 module.exports = {
 
   async getSettings(ctx) {
-    const data = await strapi.plugins['survey-js'].services['survey-js'].getSettings();
+    const data = await strapi.plugins['surveyjs'].services['survey-js'].getSettings();
 
     ctx.body = { data };
   },
 
   async updateSettings(ctx) {
     const data=ctx.request.body;
-    await strapi.plugins['survey-js'].services['survey-js'].setSettings(data);
+    await strapi.plugins['surveyjs'].services['survey-js'].setSettings(data);
   
     ctx.body = { data };
   },
