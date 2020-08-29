@@ -1,6 +1,6 @@
 {
   "name": "strapi-plugin-survey-js",
-  "version": "3.1.3",
+  "version": "3.1.4",
   "description": "survey js plugin",
   "strapi": {
     "name": "survey-js",
@@ -25,6 +25,10 @@
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Goxiaoy/strapi-plugin-survey-js.git"
   },
   "license": "MIT"
 }
